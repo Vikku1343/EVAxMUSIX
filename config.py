@@ -13,10 +13,10 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "MissBroken_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "AlinaMusixBot")
 
 # Don't Add style font 
-BOT_USERNAME2 = getenv("BOT_USERNAME2" , "miss Broken")
+BOT_USERNAME2 = getenv("BOT_USERNAME2" , "DaizyMusixBot")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -36,19 +36,19 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
     # Don't edit variables below this line #
-SUDO_USERS = [6566179661, 6415940074]
+SUDO_USERS = [6640881844, 7182442806]
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Badhacker98/BADMUSIC",
+    "https://github.com/Vikku1343/EVAxMUSIX",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "bad")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Team_Hunter_X")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Devils_Hell_0")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Dilll_se")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Ishq_Sukoon")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -104,7 +104,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/a199c1adfa09d02786ca7.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/fc31dd78158221b83d7b0.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/0661f62601d0decde581f.jpg"
